@@ -1,0 +1,27 @@
+"""
+╔══════════════════════════════════════════════════════════════╗
+║        PyTube Player  +  Google AI Video Explainer           ║
+║                                                              ║
+║  ALL APIs from Google Cloud Console:                         ║
+║   • YouTube Data API v3      — search & video info           ║
+║   • Gemini 1.5 Flash API     — AI video explanation          ║
+║   • Cloud Translation API v2 — translate to Hindi/Hinglish   ║
+║                                                              ║
+║  Languages: Hindi | English | Hinglish (Hindi+English mix)   ║
+╚══════════════════════════════════════════════════════════════╝
+
+ONE KEY DOES EVERYTHING:
+  → https://console.cloud.google.com
+  → Create/Select a project
+  → Enable these 3 APIs:
+      1. YouTube Data API v3
+      2. Generative Language API  (Gemini)
+      3. Cloud Translation API
+  → Credentials → Create API Key → paste below or enter in app
+
+INSTALL:
+  pip install customtkinter Pillow requests
+
+RUN:
+  python youtube_player.py
+"""
